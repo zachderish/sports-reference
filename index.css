@@ -1,12 +1,19 @@
+label {
+    margin-right: 50px;
+}
+
+li {
+    margin-top: 5px;
+    list-style: none;
+}
+
+ul {
+    width: 300px
+}
+
 table {
     font: 14px/1.25 "Helvetica Neue",helvetica,arial,sans-serif;
     border-collapse: collapse;
-  }
-
-td {
-    border: 1px solid #dddddd;
-    text-align: right;
-    padding: 4px 3px;
 }
 
 th {
@@ -16,21 +23,8 @@ th {
     padding: 4px 3px;
 }
 
-h2 {
-    color: #82081b;
-    font: 14px/1.25 "Helvetica Neue",helvetica,arial,sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-tbody>:nth-child(1) {
+td {
     border: 1px solid #dddddd;
-    text-align: left;
-    background: #dddddd;
-    color: #82081b;
-}
-
-tbody>tr>:nth-child(1) {
-    border: 1px solid #dddddd;
-    text-align: left;
+    text-align: right;
+    padding: 4px 3px;
 }
